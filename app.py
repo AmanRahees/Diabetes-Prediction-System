@@ -18,7 +18,7 @@ def Diabetes_prediction(input_data):
 
     if (prediction==0):
         return 'Not Diabetic'
-    else:
+    elif (prediction==1):
         return 'Diabetic'
     
 def main():
